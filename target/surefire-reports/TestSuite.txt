@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.63 s <<< FAILURE! - in TestSuite
+com.test.TC001_End_To_End.verifyTC001  Time elapsed: 10.119 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.test.TC001_End_To_End.verifyTC001(TC001_End_To_End.java:22)
+

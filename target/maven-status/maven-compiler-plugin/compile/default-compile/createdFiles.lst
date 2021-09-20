@@ -1,0 +1,14 @@
+com\page\PaymentPage.class
+com\page\CreateAccountPage.class
+com\page\LandingPage.class
+com\page\CustomerAccPage.class
+com\page\HomePage.class
+com\page\SignInPage.class
+com\page\BasePage.class
+com\page\EveningDressesPage.class
+com\page\OrderConfirmationPage.class
+com\page\Page.class
+com\page\OrderPage.class
+com\ExtentReportListener\ExtentReportListenerNG.class
+CreateAccountPage.class
+com\Utils\Xls_Reader.class

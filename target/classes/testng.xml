@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="true" verbose="3">  
+  
+  <listeners>
+  	<listener class-name="com.ExtentReportListener.ExtentReportListenerNG"/>
+  </listeners>
+  
+    <!--<test name="OOPSConceptInPOM-chrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>  
+      <class name="com.test.TC001"/>   
+    </classes>  
+  </test>    --> 
+   
+
+	
+	    <test name="OOPSConceptInPOM-firefox">
+   <parameter name="browser" value="chrome"/>
+    <classes>  
+      <class name="com.test.TC001_End_To_End"/>   
+     
+    </classes>  
+  </test> <!-- Test -->  
+	
+
+	
+
+</suite> <!-- Suite -->

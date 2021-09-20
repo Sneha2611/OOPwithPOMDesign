@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" verbose="3">
+  <listeners>
+    <listener class-name="com.ExtentReportListener.ExtentReportListenerNG"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="OOPSConceptInPOM-firefox(failed)" verbose="3">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.TC002_Create_Account">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTC002"/>
+        </methods>
+      </class> <!-- com.test.TC002_Create_Account -->
+    </classes>
+  </test> <!-- OOPSConceptInPOM-firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
